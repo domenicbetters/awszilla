@@ -92,6 +92,10 @@ height: 100%;
   width: 100%;
   max-width: 400px;
 }
+
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+}
 }
 
 </style>

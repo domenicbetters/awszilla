@@ -1,8 +1,6 @@
 <template>
 
-<!-- <input type="checkbox" :id="instance.desc" class="hidden-check" /> -->
-  <div class="flip-card unselectable" >  
-    <!-- <label :for="instance.desc"> -->
+  <div class="flip-card" >  
       <div class="flip-card-inner">
       <div class="flip-card-front">
           <h4>{{ instance.desc }}</h4>
@@ -11,7 +9,6 @@
           <h4>{{instance.name}}</h4>
       </div>
       </div>
-    <!-- </label> -->
   </div>
 </template>
 
@@ -23,7 +20,6 @@
       },
       data() {
         return {
-          // guvna: "flip-card"
         }
       }
   }
@@ -43,14 +39,7 @@ box-shadow: 5px 5px 10px 1px;
 overflow: hidden;
 }
 
-.unselectable {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
+
 
 
 /* This container is needed to position the front and back side */
@@ -107,6 +96,10 @@ height: 100%;
 .flip-card {
   width: 100%;
   max-width: 400px;
+}
+
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
 }
 }
 
