@@ -1,6 +1,7 @@
 import MainMenu from "@/views/MainMenu.vue"
 import EC2Grid from "@/views/EC2Grid.vue"
 import EC2Flash from "@/views/EC2Flash.vue"
+import batchflash from "@/views/BatchFlash.vue"
 import { createRouter, createWebHistory } from "vue-router";
 
 
@@ -26,6 +27,12 @@ const routes = [
         name: "EC2Flash",
         component: EC2Flash
       },
+      {
+        path: "/awszilla/batchflash",
+        name: "batchflash",
+        component: batchflash
+      },
+
 
       
   ]

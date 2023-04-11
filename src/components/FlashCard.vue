@@ -1,5 +1,8 @@
 <template>
-  <div class="flip-card">
+
+<!-- <input type="checkbox" :id="instance.desc" class="hidden-check" /> -->
+  <div class="flip-card" >  
+    <!-- <label :for="instance.desc"> -->
       <div class="flip-card-inner">
       <div class="flip-card-front">
           <h4>{{ instance.desc }}</h4>
@@ -8,6 +11,7 @@
           <h4>{{instance.name}}</h4>
       </div>
       </div>
+    <!-- </label> -->
   </div>
 </template>
 
@@ -17,6 +21,11 @@
       props: {
         instance: Object,
       },
+      data() {
+        return {
+          // guvna: "flip-card"
+        }
+      }
   }
 </script>
 
@@ -33,6 +42,9 @@ border: 2px solid black;
 box-shadow: 5px 5px 10px 1px;
 overflow: hidden;
 }
+
+
+
 
 /* This container is needed to position the front and back side */
 .flip-card-inner {
@@ -90,5 +102,9 @@ height: 100%;
   max-width: 400px;
 }
 }
+
+
+
+
 
 </style>

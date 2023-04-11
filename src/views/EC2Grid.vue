@@ -90,4 +90,16 @@ h1 {
 
 }
 
+@media (max-width: 1342.5px) {
+  .main-body {
+    flex-direction:column ;
+    align-items: center;
+    width: 100vw;
+  }
+  .type-column {
+    width: 90% !important;
+    max-width: 90% !important;
+  }
+}
+
 </style>
