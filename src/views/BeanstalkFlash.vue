@@ -1,6 +1,6 @@
 <template>
    <router-link :to = "{name: 'MainMenu'}"><button>Back to Main Menu</button></router-link>
-   <h1>AWS Batch Flash Cards</h1>
+   <h1>AWS BeanStalk Flash Cards</h1>
   <div class = "main-body">
 
     <FlashCard :key = "gpitem.name" v-for="(gpitem) in gpitems" :instance="gpitem"/>
@@ -12,15 +12,15 @@
 
 <script>
 import FlashCard from "@/components/FlashCard.vue"
-import batchcards from "@/assets/batchflash.json"
+import beanstalkflash from "@/assets/beanstalkflash.json"
   export default {
-    name: 'BatchFlash',
+    name: 'BeanstalkFlash',
     components: {
-      FlashCard,
+      FlashCard
     },
     data () {
       return {
-        gpitems: batchcards
+        gpitems: beanstalkflash
    
       }
     }

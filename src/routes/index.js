@@ -2,6 +2,7 @@ import MainMenu from "@/views/MainMenu.vue"
 import EC2Grid from "@/views/EC2Grid.vue"
 import EC2Flash from "@/views/EC2Flash.vue"
 import batchflash from "@/views/BatchFlash.vue"
+import BeanstalkFlash from "@/views/BeanstalkFlash.vue"
 import { createRouter, createWebHistory } from "vue-router";
 
 
@@ -32,6 +33,11 @@ const routes = [
         name: "batchflash",
         component: batchflash
       },
+      {
+        path: "/awszilla/beanstalkflash",
+        name: "BeanstalkFlash",
+        component: BeanstalkFlash
+      }
 
 
       
