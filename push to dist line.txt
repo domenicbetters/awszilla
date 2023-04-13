@@ -1,6 +1,7 @@
 git subtree push --prefix dist origin gh-pages
 
-{"name": "", "desc": ""},
+,
+    {"name": "", "desc": ""}
 
 for when i get to EBS
 {"name": "AES-256 algorithm", "desc": "EBS encryption uses KMS keys when creating encrypted volumes.  What industry standard data key does it use?"}

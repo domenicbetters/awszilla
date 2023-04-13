@@ -1,6 +1,6 @@
 <template>
    <router-link :to = "{name: 'MainMenu'}"><button>Back to Main Menu</button></router-link>
-   <h1>EC2 Flash Cards</h1>
+   <h1>{{this.title}} Flash Cards</h1>
   <div class = "main-body">
 
     <FlashCard :key = "gpitem.name" v-for="(gpitem) in gpitems" :instance="gpitem"/>
@@ -12,19 +12,30 @@
 
 <script>
 import FlashCard from "@/components/FlashCard.vue"
-import EC2Cards from "@/assets/EC2/EC2.json"
+
+
+
+
+
   export default {
-    name: 'EC2Flash',
+    name: `FlashCards`,
     components: {
       FlashCard,
     },
     data () {
       return {
-        gpitems: EC2Cards
-   
+        gpitems: "",
       }
+    },
+    props: {
+     title: String
+    },
+    mounted() {
+     import(`@/assets/${this.$route.name}.json`).then((module) => {
+      this.gpitems = module.default;})
     }
-  }
+
+}
 
 </script>
 
