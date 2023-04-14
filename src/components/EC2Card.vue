@@ -89,7 +89,7 @@ height: 100%;
 
 @media (max-width: 991.5px) {
 .flip-card {
-  width: 100%;
+  width:95%;
   max-width: 400px;
 }
 

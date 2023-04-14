@@ -44,4 +44,13 @@ img {
   flex-direction: column;
   align-items: center;
 }
+
+@media (max-width: 991.5px)
+{
+  #app {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 </style>
