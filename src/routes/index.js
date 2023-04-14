@@ -1,7 +1,9 @@
 import MainMenu from "@/views/MainMenu.vue"
 import SAMenu from "@/views/SAMenu.vue"
+import CPMenu from "@/views/CPMenu.vue"
 import EC2Grid from "@/views/EC2Grid.vue"
 import SAFlashCards from "@/views/SAFlashCards.vue"
+import CPFlashCards from "@/views/CPFlashCards.vue"
 import { createRouter, createWebHistory } from "vue-router";
 
 
@@ -21,6 +23,11 @@ const routes = [
       path: "/awszilla/solutionsarchitect",
       name: "SAMenu",
       component: SAMenu
+    },
+    {
+      path: "/awszilla/cloudpractitioner",
+      name: "CPMenu",
+      component: CPMenu
     },
     {
         path: "/awszilla/solutionsarchitect/ec2grid",
@@ -80,6 +87,18 @@ const routes = [
         name: "ECRFlash",
         component: SAFlashCards,
         props: {title: "Amazon Elastic Container Registry"}
+      },
+      {
+        path: "/awszilla/solutionsarchitect/s3flash",
+        name: "S3Flash",
+        component: SAFlashCards,
+        props: {title: "Amazon S3"}
+      },
+      {
+        path: "/awszilla/cloudpractitioner/analyticsflash",
+        name: "AnalyticsFlash",
+        component: CPFlashCards,
+        props: {title: "AWS Analytics"}
       },
 
 

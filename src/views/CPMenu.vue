@@ -1,11 +1,9 @@
 <template>
   <div class = "bady" >
-    <h2>Main Menu</h2>
+    <router-link :to = "{name: 'MainMenu'}"><button>Back to Main Menu</button></router-link>
+    <h2>Cloud Practitioner Flash Cards</h2>
     <div>
-     <router-link :to="{name: 'CPMenu'}"> <button>Cloud Practitioner Flash Cards</button></router-link>
-     <router-link :to="{name: 'SAMenu'}"> <button>Solutions Architect Flash Cards</button></router-link>
-    
-     <a href="https://dos.zone/player/?bundleUrl=https%3A%2F%2Fcdn.dos.zone%2Fcustom%2Fdos%2Fdoom.jsdos?anonymous=1%27)"><button>DOOM</button></a> 
+      <router-link :to="{name: 'AnalyticsFlash'}"> <button>AWS Analytics Cards</button></router-link>
     </div>
   </div>
   </template>
@@ -13,7 +11,7 @@
 
 <script>
   export default {
-    name: 'MainMenu'
+    name: 'CPMenu'
   }
 
 </script>

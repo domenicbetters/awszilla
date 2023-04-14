@@ -1,6 +1,6 @@
 <template>
    <router-link :to = "{name: 'SAMenu'}"><button>Back to Main Menu</button></router-link>
-   <h1>Catagories of EC2 Instance Classes</h1>
+   <h2>Catagories of EC2 Instance Classes</h2>
   <div class = "main-body">
     <div class = "type-column">
       <h1>General Purpose</h1>
