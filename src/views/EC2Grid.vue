@@ -1,6 +1,6 @@
 <template>
-   <router-link :to = "{name: 'SAMenu'}"><button>Back to Main Menu</button></router-link>
-   <h2>Catagories of EC2 Instance Classes</h2>
+   <router-link :to = "{name: 'MainMenu'}"><button>Back to Main Menu</button></router-link>
+   <h1>Catagories of EC2 Instance Classes</h1>
   <div class = "main-body">
     <div class = "type-column">
       <h1>General Purpose</h1>
@@ -29,7 +29,7 @@
 <script>
 import EC2Card from "@/components/EC2Card.vue"
   export default {
-    name: 'MainMenu',
+    name: 'EC2Grid',
     components: {
       EC2Card,
     },
@@ -86,7 +86,7 @@ h1 {
 
 .main-body {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
 }
 

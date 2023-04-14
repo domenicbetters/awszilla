@@ -4,6 +4,7 @@
     <h2>Cloud Practitioner Flash Cards</h2>
     <div>
       <router-link :to="{name: 'AnalyticsFlash'}"> <button>AWS Analytics Cards</button></router-link>
+      <router-link :to="{name: 'ApplicationIntFlash'}"> <button>AWS Application Integration</button></router-link>
     </div>
   </div>
   </template>

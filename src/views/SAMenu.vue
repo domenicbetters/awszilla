@@ -14,6 +14,7 @@
      <router-link :to="{name: 'ECSFlash'}"> <button>Amazon ECS Flash Cards</button></router-link>
      <router-link :to="{name: 'ECRFlash'}"> <button>Amazon ECR Flash Cards</button></router-link>
      <router-link :to="{name: 'S3Flash'}"> <button>Amazon S3 Flash Cards</button></router-link>
+     <router-link :to="{name: 'S3Grid'}"> <button>Amazon S3 Storage Class Flash Cards</button></router-link>
     </div>
   </div>
   </template>

@@ -4,6 +4,7 @@ import CPMenu from "@/views/CPMenu.vue"
 import EC2Grid from "@/views/EC2Grid.vue"
 import SAFlashCards from "@/views/SAFlashCards.vue"
 import CPFlashCards from "@/views/CPFlashCards.vue"
+import S3Grid from "@/views/S3Grid.vue"
 import { createRouter, createWebHistory } from "vue-router";
 
 
@@ -89,6 +90,11 @@ const routes = [
         props: {title: "Amazon Elastic Container Registry"}
       },
       {
+        path: "/awszilla/solutionsarchitect/s3grid",
+        name: "S3Grid",
+        component: S3Grid
+      },
+      {
         path: "/awszilla/solutionsarchitect/s3flash",
         name: "S3Flash",
         component: SAFlashCards,
@@ -99,6 +105,12 @@ const routes = [
         name: "AnalyticsFlash",
         component: CPFlashCards,
         props: {title: "AWS Analytics"}
+      },
+      {
+        path: "/awszilla/cloudpractitioner/applicationintflash",
+        name: "ApplicationIntFlash",
+        component: CPFlashCards,
+        props: {title: "AWS Application Integration"}
       },
 
 
