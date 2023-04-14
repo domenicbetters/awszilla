@@ -1,5 +1,5 @@
 <template>
-   <router-link :to = "{name: 'MainMenu'}"><button>Back to Main Menu</button></router-link>
+   <router-link :to = "{name: 'SAMenu'}"><button>Back to Solutions Architect Menu</button></router-link>
    <h1>{{this.title}} Flash Cards</h1>
   <div class = "main-body">
 
@@ -18,7 +18,7 @@ import FlashCard from "@/components/FlashCard.vue"
 
 
   export default {
-    name: `FlashCards`,
+    name: `SAFlashCards`,
     components: {
       FlashCard,
     },
@@ -31,7 +31,7 @@ import FlashCard from "@/components/FlashCard.vue"
      title: String
     },
     mounted() {
-     import(`@/assets/${this.$route.name}.json`).then((module) => {
+     import(`@/assets/SolutionsArch/${this.$route.name}.json`).then((module) => {
       this.gpitems = module.default;})
     }
 

@@ -1,20 +1,10 @@
 <template>
   <div class = "bady" >
-    <h1>AWSZILLA</h1>
+    <h2>Main Menu</h2>
     <div>
-     <router-link :to="{name: 'EC2Grid'}"> <button>EC2 Instance Grid Flash Cards</button></router-link>
-     <router-link :to="{name: 'EC2Flash'}"> <button>EC2 Flash Cards</button></router-link>
-     <router-link :to="{name: 'BatchFlash'}"> <button>AWS Batch Flash Cards</button></router-link>
-     <router-link :to="{name: 'BeanstalkFlash'}"> <button>AWS Beanstalk Flash Cards</button></router-link>
+     <router-link :to="{name: 'SAMenu'}"> <button>Solutions Architect Flash Cards</button></router-link>
      <a href="https://dos.zone/player/?bundleUrl=https%3A%2F%2Fcdn.dos.zone%2Fcustom%2Fdos%2Fdoom.jsdos?anonymous=1%27)"><button>DOOM</button></a> 
-     <router-link :to="{name: 'LambdaFlash'}"> <button>AWS Lambda Flash Cards</button></router-link>
-     <router-link :to="{name: 'ServerlessARFlash'}"> <button>AWS Serverless Application repo Flash Cards</button></router-link>
-     <router-link :to="{name: 'FargateFlash'}"> <button>AWS Fargate Flash Cards</button></router-link>
-     <router-link :to="{name: 'EKSFlash'}"> <button>AWS EKS Flash Cards</button></router-link>
-     <router-link :to="{name: 'ECSFlash'}"> <button>Amazon ECS Flash Cards</button></router-link>
-     <router-link :to="{name: 'ECRFlash'}"> <button>Amazon ECR Flash Cards</button></router-link>
     </div>
-    <div class="imgbox"><img src="@/assets/godzilla.jpg" /></div>
   </div>
   </template>
 

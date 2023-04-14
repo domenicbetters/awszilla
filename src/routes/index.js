@@ -1,6 +1,7 @@
 import MainMenu from "@/views/MainMenu.vue"
+import SAMenu from "@/views/SAMenu.vue"
 import EC2Grid from "@/views/EC2Grid.vue"
-import FlashCards from "@/views/FlashCards.vue"
+import SAFlashCards from "@/views/SAFlashCards.vue"
 import { createRouter, createWebHistory } from "vue-router";
 
 
@@ -17,62 +18,67 @@ const routes = [
       component: MainMenu
     },
     {
-        path: "/awszilla/ec2grid",
+      path: "/awszilla/solutionsarchitect",
+      name: "SAMenu",
+      component: SAMenu
+    },
+    {
+        path: "/awszilla/solutionsarchitect/ec2grid",
         name: "EC2Grid",
         component: EC2Grid
       },
       {
-        path: "/awszilla/ec2flash",
+        path: "/awszilla/solutionsarchitect/ec2flash",
         name: "EC2Flash",
-        component: FlashCards,
+        component: SAFlashCards,
         props: {title: "AWS EC2"}
       },
       {
-        path: "/awszilla/batchflash",
+        path: "/awszilla/solutionsarchitect/batchflash",
         name: "BatchFlash",
-        component: FlashCards,
+        component: SAFlashCards,
         props: {title: "AWS Batch"}
       },
       {
-        path: "/awszilla/beanstalkflash",
+        path: "/awszilla/solutionsarchitect/beanstalkflash",
         name: "BeanstalkFlash",
-        component: FlashCards,
+        component: SAFlashCards,
         props: {title: "AWS Beanstalk"}
       },
       {
-        path: "/awszilla/lambdaflash",
+        path: "/awszilla/solutionsarchitect/lambdaflash",
         name: "LambdaFlash",
-        component: FlashCards,
+        component: SAFlashCards,
         props: {title: "AWS Lambda"}
       },
       {
-        path: "/awszilla/serverlessarflash",
+        path: "/awszilla/solutionsarchitect/serverlessarflash",
         name: "ServerlessARFlash",
-        component: FlashCards,
+        component: SAFlashCards,
         props: {title: "AWS Serverless Application Repository"}
       },
       {
-        path: "/awszilla/fargateflash",
+        path: "/awszilla/solutionsarchitect/fargateflash",
         name: "FargateFlash",
-        component: FlashCards,
+        component: SAFlashCards,
         props: {title: "AWS Fargate"}
       },
       {
-        path: "/awszilla/eksflash",
+        path: "/awszilla/solutionsarchitect/eksflash",
         name: "EKSFlash",
-        component: FlashCards,
+        component: SAFlashCards,
         props: {title: "AWS Elastic Kubernetes Service"}
       },
       {
-        path: "/awszilla/ecsflash",
+        path: "/awszilla/solutionsarchitect/ecsflash",
         name: "ECSFlash",
-        component: FlashCards,
+        component: SAFlashCards,
         props: {title: "AWS Elastic Container Service"}
       },
       {
-        path: "/awszilla/ecrflash",
+        path: "/awszilla/solutionsarchitect/ecrflash",
         name: "ECRFlash",
-        component: FlashCards,
+        component: SAFlashCards,
         props: {title: "Amazon Elastic Container Registry"}
       },
 
