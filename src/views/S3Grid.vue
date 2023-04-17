@@ -1,5 +1,5 @@
 <template>
-   <router-link :to = "{name: 'SAMenu'}"><button>Back to Main Menu</button></router-link>
+   <router-link :to = "{name: 'SAMenu'}"><button>Back to Solutions Architect Menu</button></router-link>
    <h2>S3 Storage Class Chart</h2>
   <div class = "main-body">
     <div class = "type-column">
