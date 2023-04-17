@@ -3,8 +3,10 @@
     <router-link :to = "{name: 'MainMenu'}"><button>Back to Main Menu</button></router-link>
     <h2>Cloud Practitioner Flash Cards</h2>
     <div>
-      <router-link :to="{name: 'AnalyticsFlash'}"> <button>AWS Analytics Cards</button></router-link>
-      <router-link :to="{name: 'ApplicationIntFlash'}"> <button>AWS Application Integration</button></router-link>
+      <router-link :to="{name: 'AnalyticsFlash'}"> <button>AWS Analytics Flash Cards</button></router-link>
+      <router-link :to="{name: 'ApplicationIntFlash'}"> <button>AWS Application Integration Flash Cards</button></router-link>
+      <router-link :to="{name: 'CostManageFlash'}"> <button>AWS Cost Management Flash Cards</button></router-link>
+      <router-link :to="{name: 'ComputeFlash'}"> <button>AWS Compute Services Flash Cards</button></router-link>
     </div>
   </div>
   </template>
