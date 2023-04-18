@@ -102,6 +102,12 @@ const routes = [
         component: S3Grid
       },
       {
+        path: "/awszilla/solutionsarchitect/backupflash",
+        name: "BackupFlash",
+        component: SAFlashCards,
+        props: {title: "AWS Backup"}
+      },git 
+      {
         path: "/awszilla/solutionsarchitect/ebsgrid",
         name: "EBSGrid",
         component: EBSGrid

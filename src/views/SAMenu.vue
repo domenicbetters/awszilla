@@ -15,6 +15,7 @@
      <router-link :to="{name: 'ECRFlash'}"> <button>Amazon ECR Flash Cards</button></router-link>
      <router-link :to="{name: 'S3Flash'}"> <button>Amazon S3 Flash Cards</button></router-link>
      <router-link :to="{name: 'S3Grid'}"> <button>Amazon S3 Storage Class Flash Cards</button></router-link>
+     <router-link :to="{name: 'BackupFlash'}"> <button>AWS Backup Flash Cards</button></router-link>
      <router-link :to="{name: 'EBSFlash'}"> <button>AWS Elastic Block Storage Flash Cards</button></router-link>
      <router-link :to="{name: 'EBSGrid'}"> <button>AWS Elastic Block Storage - Storage Type Flash Cards</button></router-link>
      <router-link :to="{name: 'EFSFlash'}"> <button>AWS Elastic File Storage Flash Cards</button></router-link>
