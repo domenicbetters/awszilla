@@ -106,7 +106,7 @@ const routes = [
         name: "BackupFlash",
         component: SAFlashCards,
         props: {title: "AWS Backup"}
-      },git 
+      },
       {
         path: "/awszilla/solutionsarchitect/ebsgrid",
         name: "EBSGrid",
