@@ -1,0 +1,13 @@
+[
+    {"name": "Backup is a secure service that automates and governs data backup in the AWS cloud and on premises.", "desc": "What is AWS Backup?"},
+    {"name": "You can use a backup console, backup APIs or AWS CLI", "desc": "How can you manage backups across the AWS resources like instances and databases?"},
+    {"name": "Policies, tags, and resources.", "desc": "AWS backup offers backup functionalities based on _____, _____, and __________."},
+    {"name": "True", "desc": "True or False.  You can schedule backup plans (policies) to automate backup of AWS resources across accounts and regions."},
+    {"name": "Incremental backup", "desc": "What can you use to minimize storage costs?"},
+    {"name": "Backup Retention Plan", "desc": "You can set up a _________ to retain and expire backups automatically."},
+    {"name": "True", "desc": "True or False.  Backup offers an enhanced solution by providing seperate encryption keys for encrypting multiple AWS Resources."},
+    {"name": "Life Cycle Policies", "desc": "What can you use to transition backups from EFS to cold storage automatically?"},
+    {"name": "Yes", "desc": "Does backup support cross-account backup?"},
+    {"name": "CloudWatch, CloudTrail, SNS", "desc": "Backup integrates wtih ______, _________, and __________ to monitor and audit API activites and notifications."},
+    {"name": "AWS charges monthly based on the amount of backup storage used and the amount of backup data restored.", "desc": "How are you charged for using AWS Backup?"}
+]
