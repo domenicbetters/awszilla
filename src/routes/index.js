@@ -154,6 +154,32 @@ const routes = [
         component: CPFlashCards,
         props: {title: "AWS Compute Services"}
       },
+      {
+        path: "/awszilla/cloudpractitioner/containerflash",
+        name: "ContainerFlash",
+        component: CPFlashCards,
+        props: {title: "AWS Container Services"}
+      },
+      {
+        path: "/awszilla/cloudpractitioner/databaseflash",
+        name: "DatabaseFlash",
+        component: CPFlashCards,
+        props: {title: "AWS Database Services"}
+      },
+      {
+        path: "/awszilla/cloudpractitioner/devflash",
+        name: "DevFlash",
+        component: CPFlashCards,
+        props: {title: "AWS Developer Tools"}
+      },
+      {
+        path: "/awszilla/cloudpractitioner/apigameflash",
+        name: "APIGameFlash",
+        component: CPFlashCards,
+        props: {title: "AWS API and Gamelift"}
+      },
+
+
 
       
       

@@ -1,0 +1,8 @@
+[
+
+    {"name": "API Gateway", "desc": "What is a service that maintains and secures APIs at any scale. It is categorized as a serverless service of AWS?"},
+    {"name": "API Gateway", "desc": "When a request is sent through a browser of HTTP client to the public endpoint, ______ broadcasts the request and sends it to the Lambda function."},
+    {"name": "Amazon GameLift", "desc": "What is a fully managed service used to deploy, manage, and scale dedicated servers in the cloud for multiplayer games?"},
+    {"name": "Amazon GameLift", "desc": "______ provides a low-latency player experience and reduces manual tasks to deploy and manage game servers."}
+    
+    ]

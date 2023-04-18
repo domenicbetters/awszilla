@@ -7,6 +7,11 @@
       <router-link :to="{name: 'ApplicationIntFlash'}"> <button>AWS Application Integration Flash Cards</button></router-link>
       <router-link :to="{name: 'CostManageFlash'}"> <button>AWS Cost Management Flash Cards</button></router-link>
       <router-link :to="{name: 'ComputeFlash'}"> <button>AWS Compute Services Flash Cards</button></router-link>
+      <router-link :to="{name: 'ContainerFlash'}"> <button>AWS Container Services Flash Cards</button></router-link>
+      <router-link :to="{name: 'DatabaseFlash'}"> <button>AWS Database Services Flash Cards</button></router-link>
+      <router-link :to="{name: 'DevFlash'}"> <button>AWS Developer Tools Flash Cards</button></router-link>
+      <router-link :to="{name: 'APIGameFlash'}"> <button>AWS API and Gamelift Flash Cards</button></router-link>
+      
     </div>
   </div>
   </template>
