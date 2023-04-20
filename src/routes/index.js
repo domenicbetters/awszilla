@@ -102,6 +102,18 @@ const routes = [
         component: S3Grid
       },
       {
+        path: "/awszilla/solutionsarchitect/documentdbflash",
+        name: "DocumentDBFlash",
+        component: SAFlashCards,
+        props: {title: "Amazon DocumentDB Service"}
+      },
+      {
+        path: "/awszilla/solutionsarchitect/dynamodbflash",
+        name: "DynamoDBFlash",
+        component: SAFlashCards,
+        props: {title: "Amazon DynamoDB Service"}
+      },
+      {
         path: "/awszilla/solutionsarchitect/backupflash",
         name: "BackupFlash",
         component: SAFlashCards,
@@ -117,6 +129,30 @@ const routes = [
         name: "S3Flash",
         component: SAFlashCards,
         props: {title: "Amazon S3"}
+      },
+      {
+        path: "/awszilla/solutionsarchitect/s3glacierflash",
+        name: "S3GlacierFlash",
+        component: SAFlashCards,
+        props: {title: "Amazon S3 Glacier"}
+      },
+      {
+        path: "/awszilla/solutionsarchitect/auroraflash",
+        name: "AuroraFlash",
+        component: SAFlashCards,
+        props: {title: "Amazon Aurora"}
+      },
+      {
+        path: "/awszilla/solutionsarchitect/snowballflash",
+        name: "SnowballFlash",
+        component: SAFlashCards,
+        props: {title: "AWS Snowball"}
+      },
+      {
+        path: "/awszilla/solutionsarchitect/storagegatewayflash",
+        name: "StorageGatewayFlash",
+        component: SAFlashCards,
+        props: {title: "AWS Storage Gateway"}
       },
       {
         path: "/awszilla/solutionsarchitect/fsxwsflash",

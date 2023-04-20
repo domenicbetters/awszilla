@@ -1,0 +1,24 @@
+[
+    
+    {"name": "It is the fully managed RDS services offered by AWS.", "desc": "What is Amazon Aurora?"},
+    {"name": "PostgreSQL and MySQL", "desc": "Aurora is only compatible with ________ and ________."},
+    {"name": "5, 3", "desc": "Aurora provides _____ times faster throughput to traditional MySQL and ______ times faster throughput to PostgreSQL"},
+    {"name": "It keeps 3 copies in each AZ with a minimum of 3 AZs making a total of 6 copies.", "desc": "How does Aurora maintain 99.99% high availability of data?"},
+    {"name": "15", "desc": "Up to how many read replicas can Aurora have?"},
+    {"name": "128TB", "desc": "How high can each database instance scale up to in Aurora?"},
+    {"name": "The primary DB instance and the Aurora Replica", "desc": "What two instances make up an Aurora DB cluster"},
+    {"name": "False, there is a lag of not more than 100 ms.", "desc": "True or False.  Read replicas always fetch the same result as the primary instance with 0 lag."},
+    {"name": "True", "desc": "True or False.  Encryption in Aurora is done both at rest with KMS and in transit with SSL."},
+    {"name": "Aurora Global Database", "desc": "______ helps to span multiple AWS regions for low latency access across the globe."},
+    {"name": "It gives the ability to scale out write operations over multiple AZ so there is no single point of failure in the cluster,", "desc": "Aurora Multi Master does what?"},
+    {"name": "MySQL", "desc": "Aurora Multi Master is only compatible with which edition of Aurora"},
+    {"name": "Aurora Serverless", "desc": "What gives you the flexibility to scale in and out on the basis of database load.  "},
+    {"name": "Each set of data is replicated in six copies across 3 AZs.  It can handle the loss of up to 2 copies without impacting write, and 3 copies with out impacting read.", "desc": "How does Aurora's fault tolerance work?"},
+    {"name": "True, disks are continuously scanned for errors and repaired.", "desc": "True or False.  Aurora is self healing"},
+    {"name": "Aurora Serverless", "desc": "It is best practice to use ______ if you are unsure of your database workload."},
+    {"name": "Multi Master", "desc": "If write operations and DDL are crucial requirements, you should choose which Aurora edition?"},
+    {"name": "False", "desc": "True or False.  On demand instances are cheaper than reserved instances."},
+    {"name": "True.", "desc": "True or False.  Data transfer between Aurora and EC2 in the same AZ are free"},
+    {"name": "True.", "desc": "True or False.  All data transfers in are free in Aurora."},
+    {"name": "1 GB/Month", "desc": "Data transfers out of the database through the internet is chargable if it exceeds __________"}
+]

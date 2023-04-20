@@ -14,6 +14,7 @@
      <router-link :to="{name: 'ECSFlash'}"> <button>Amazon ECS Flash Cards</button></router-link>
      <router-link :to="{name: 'ECRFlash'}"> <button>Amazon ECR Flash Cards</button></router-link>
      <router-link :to="{name: 'S3Flash'}"> <button>Amazon S3 Flash Cards</button></router-link>
+     <router-link :to="{name: 'S3GlacierFlash'}"> <button>Amazon S3 Glacier Flash Cards</button></router-link>
      <router-link :to="{name: 'S3Grid'}"> <button>Amazon S3 Storage Class Flash Cards</button></router-link>
      <router-link :to="{name: 'BackupFlash'}"> <button>AWS Backup Flash Cards</button></router-link>
      <router-link :to="{name: 'EBSFlash'}"> <button>AWS Elastic Block Storage Flash Cards</button></router-link>
@@ -21,6 +22,11 @@
      <router-link :to="{name: 'EFSFlash'}"> <button>AWS Elastic File Storage Flash Cards</button></router-link>
      <router-link :to="{name: 'FSXWSFlash'}"> <button>Amazon FSx for Windows File Server Flash Cards</button></router-link>
      <router-link :to="{name: 'FSXWSFlash'}"> <button>Amazon FSx for Lustre Flash Cards</button></router-link>
+     <router-link :to="{name: 'SnowballFlash'}"> <button>AWS Snowball Flash Cards</button></router-link>
+     <router-link :to="{name: 'StorageGatewayFlash'}"> <button>AWS Storage Gateway Flash Cards</button></router-link>
+     <router-link :to="{name: 'AuroraFlash'}"> <button>Amazon Aurora Flash Cards</button></router-link>
+     <router-link :to="{name: 'DocumentDBFlash'}"> <button>Amazon DocumentDB Flash Cards</button></router-link>
+     <router-link :to="{name: 'DynamoDBFlash'}"> <button>Amazon DynamoDB Flash Cards</button></router-link>
     </div>
   </div>
   </template>
