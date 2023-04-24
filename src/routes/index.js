@@ -220,6 +220,40 @@ const routes = [
         component: CPFlashCards,
         props: {title: "AWS API and Gamelift"}
       },
+      {
+        path: "/awszilla/cloudpractitioner/iotflash",
+        name: "IoTFlash",
+        component: CPFlashCards,
+        props: {title: "AWS Internet of Things"}
+      },
+      {
+        path: "/awszilla/cloudpractitioner/machinelearningflash",
+        name: "MachineLearningFlash",
+        component: CPFlashCards,
+        props: {title: "AWS Machine Learning"}
+      },
+      {
+        path: "/awszilla/cloudpractitioner/managementandgovflash",
+        name: "ManagementandGovFlash",
+        component: CPFlashCards,
+        props: {title: "AWS Management and Governance"}
+      },
+      {
+        path: "/awszilla/cloudpractitioner/migrationflash",
+        name: "MigrationFlash",
+        component: CPFlashCards,
+        props: {title: "AWS Migration and Transfer"}
+      },
+      {
+        path: "/awszilla/cloudpractitioner/networkdeliveryflash",
+        name: "NetworkDeliveryFlash",
+        component: CPFlashCards,
+        props: {title: "AWS Network and Delivery"}
+      },
+
+
+
+
 
 
 

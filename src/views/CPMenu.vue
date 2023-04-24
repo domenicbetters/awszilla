@@ -11,6 +11,11 @@
       <router-link :to="{name: 'DatabaseFlash'}"> <button>AWS Database Services Flash Cards</button></router-link>
       <router-link :to="{name: 'DevFlash'}"> <button>AWS Developer Tools Flash Cards</button></router-link>
       <router-link :to="{name: 'APIGameFlash'}"> <button>AWS API and Gamelift Flash Cards</button></router-link>
+      <router-link :to="{name: 'IoTFlash'}"> <button>AWS Internet of Things Flash Cards</button></router-link>
+      <router-link :to="{name: 'MachineLearningFlash'}"> <button>AWS Machine Learning Flash Cards</button></router-link>
+      <router-link :to="{name: 'ManagementandGovFlash'}"> <button>AWS Management and Governance Flash Cards</button></router-link>
+      <router-link :to="{name: 'MigrationFlash'}"> <button>AWS Migration and Transfer Flash Cards</button></router-link>
+      <router-link :to="{name: 'NetworkDeliveryFlash'}"> <button>AWS Network Delivery Flash Cards</button></router-link>
       
     </div>
   </div>

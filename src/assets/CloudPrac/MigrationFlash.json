@@ -1,0 +1,7 @@
+[
+
+    {"name": "AWS Database Migration Service", "desc": "What is a cloud service used to migrate relational databases from on-premises, Amazon EC2, or Amazon RDS to AWS securely?"},
+    {"name": "AWS Database Migration Service (DMS)", "desc": "__________ does not stop the running application whgile perfroming the migration of databases, resulting in downtime minimization."},
+    {"name": "AWS Server Migration Service", "desc": "What is a service that easily migrates on-premises servers to the AWS Cloud?"}
+    
+    ]
