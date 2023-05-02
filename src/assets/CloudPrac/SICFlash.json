@@ -1,0 +1,15 @@
+[
+
+    {"name": "Amazon Identity and Access Management (IAM)", "desc": "What is a free service used to define permissions and manage users to access multi-account AWS services?"},
+    {"name": "Amazon Cognito", "desc": "What is a service used for authentication, authorization, and user management for web or mobile applications?"},
+    {"name": "Amazon Cognito", "desc": "_____ allows customers to log in through social identity providers such as Google and Facebook and through enterprise identity providers such as Mircosoft Active Directory Via apps?"},
+    {"name": "AWS Key Management Service", "desc": "What is a global service that creates, stores, and manages encryption keys?"},
+    {"name": "AWS Certificate Manager", "desc": "What is a service that allows a user to protect AWS applications by storing, renewing, and deploying public and private SSL/TLS X.509 certificates?"},
+    {"name": "AWS Directory Service", "desc": "What is known as AWS Managed Mircosoft Active Directory (AD), enables multiple ways to use Microsoft Active Directory (AD) with other AWS services?"},
+    {"name": "AWS Resource Acess Manager", "desc": "What is a service that allows resources to be shared through AWS Organizations or across AWS accounts?"},
+    {"name": "AWS Secrets Manager", "desc": "What is a service that prevents secret credentials from being hardcoded in the source code?"},
+    {"name": "AWS Secrets Manager", "desc": "Rotates credentials for AWS services using the Lambda function that instructs __________ to interact with the service or database."},
+    {"name": "AWS Security Hub", "desc": "What is a service that offers security aspects to protect the environment using industry-standard best practices?"}
+    
+    
+    ]

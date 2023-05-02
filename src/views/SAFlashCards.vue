@@ -26,7 +26,7 @@ import FlashCard from "@/components/FlashCard.vue"
       return {
         gpitems: "",
       }
-    },
+    },    
     props: {
      title: String
     },

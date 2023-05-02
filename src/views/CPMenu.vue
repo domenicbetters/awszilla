@@ -16,6 +16,8 @@
       <router-link :to="{name: 'ManagementandGovFlash'}"> <button>AWS Management and Governance Flash Cards</button></router-link>
       <router-link :to="{name: 'MigrationFlash'}"> <button>AWS Migration and Transfer Flash Cards</button></router-link>
       <router-link :to="{name: 'NetworkDeliveryFlash'}"> <button>AWS Network Delivery Flash Cards</button></router-link>
+      <router-link :to="{name: 'SICFlash'}"> <button>AWS Security, Identity, and Compliance Flash Cards</button></router-link>
+      <router-link :to="{name: 'StorageFlash'}"> <button>AWS Storage Services Flash Cards</button></router-link>
       
     </div>
   </div>

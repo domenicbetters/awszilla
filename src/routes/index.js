@@ -173,6 +173,36 @@ const routes = [
         props: {title: "AWS Elastic Block Storage"}
       },
       {
+        path: "/awszilla/solutionsarchitect/elasticacheflash",
+        name: "ElasticacheFlash",
+        component: SAFlashCards,
+        props: {title: "AWS Elasticahce"}
+      },
+      {
+        path: "/awszilla/solutionsarchitect/neptuneflash",
+        name: "NeptuneFlash",
+        component: SAFlashCards,
+        props: {title: "AWS Neptune"}
+      },
+      {
+        path: "/awszilla/solutionsarchitect/redshiftflash",
+        name: "RedshiftFlash",
+        component: SAFlashCards,
+        props: {title: "AWS Redshift"}
+      },
+      {
+        path: "/awszilla/solutionsarchitect/keyspacesflash",
+        name: "KeySpacesFlash",
+        component: SAFlashCards,
+        props: {title: "AWS Keyspaces"}
+      },
+      {
+        path: "/awszilla/solutionsarchitect/rdsflash",
+        name: "RDSFlash",
+        component: SAFlashCards,
+        props: {title: "AWS RDS"}
+      },
+      {
         path: "/awszilla/cloudpractitioner/analyticsflash",
         name: "AnalyticsFlash",
         component: CPFlashCards,
@@ -250,6 +280,19 @@ const routes = [
         component: CPFlashCards,
         props: {title: "AWS Network and Delivery"}
       },
+      {
+        path: "/awszilla/cloudpractitioner/sicflash",
+        name: "SICFlash",
+        component: CPFlashCards,
+        props: {title: "AWS Security, Identity, and Compliance"}
+      },
+      {
+        path: "/awszilla/cloudpractitioner/storageflash",
+        name: "StorageFlash",
+        component: CPFlashCards,
+        props: {title: "AWS Storage Services"}
+      },
+
 
 
 

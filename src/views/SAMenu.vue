@@ -27,6 +27,11 @@
      <router-link :to="{name: 'AuroraFlash'}"> <button>Amazon Aurora Flash Cards</button></router-link>
      <router-link :to="{name: 'DocumentDBFlash'}"> <button>Amazon DocumentDB Flash Cards</button></router-link>
      <router-link :to="{name: 'DynamoDBFlash'}"> <button>Amazon DynamoDB Flash Cards</button></router-link>
+     <router-link :to="{name: 'ElasticacheFlash'}"> <button>Amazon Elasticache Flash Cards</button></router-link>
+     <router-link :to="{name: 'NeptuneFlash'}"> <button>AWS Neptune Flash Cards</button></router-link>
+     <router-link :to="{name: 'KeySpacesFlash'}"> <button>AWS Keyspaces Flash Cards</button></router-link>
+     <router-link :to="{name: 'RDSFlash'}"> <button>AWS RDS Flash Cards</button></router-link>
+     <router-link :to="{name: 'RedshiftFlash'}"> <button>AWS Redshift Flash Cards</button></router-link>
     </div>
   </div>
   </template>
