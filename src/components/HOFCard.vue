@@ -38,8 +38,6 @@ height: 300px;
 perspective: 1000px; /* Remove this if you don't want the 3D effect */
 margin: 15px;
 border-radius: 15px;
-border: 2px solid black;
-box-shadow: 5px 5px 10px 1px;
 overflow: hidden;
 }
 
