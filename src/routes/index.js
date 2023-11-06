@@ -6,6 +6,7 @@ import SAFlashCards from "@/views/SAFlashCards.vue"
 import CPFlashCards from "@/views/CPFlashCards.vue"
 import S3Grid from "@/views/S3Grid.vue"
 import EBSGrid from "@/views/EBSGrid.vue"
+import CrabHOF from "@/views/CrabHOF.vue"
 import { createRouter, createWebHistory } from "vue-router";
 
 
@@ -291,6 +292,11 @@ const routes = [
         name: "StorageFlash",
         component: CPFlashCards,
         props: {title: "AWS Storage Services"}
+      },
+      {
+        path: "/awszilla/crabhof",
+        name: "Crab Lab HOF",
+        component: CrabHOF
       },
 
 
