@@ -50,7 +50,8 @@ import MovieComponent from "./MovieComponent.vue"
             {name: 'Gavin Galovich', cl2: 'X', cl31: ' ', cl32: ' ', cl33: ' ', cl41: ' ', cl42: ' ', cl43: ' ', cl51: 'X', cl52: ' ', cl53: ' ', cl61: 'X', cl62: ' ', cl63: 'X', cl71: 'X', cl72: 'X', cl73: ' '},
             {name: 'Brand Bakowski', cl2: 'X', cl31: ' ', cl32: 'X', cl33: ' ', cl41: ' ', cl42: ' ', cl43: ' ', cl51: 'X', cl52: ' ', cl53: ' ', cl61: 'X', cl62: ' ', cl63: ' ', cl71: 'X', cl72: 'X', cl73: ' '},
             {name: 'Scott Rogers', cl2: 'X', cl31: ' ', cl32: ' ', cl33: ' ', cl41: ' ', cl42: ' ', cl43: ' ', cl51: ' ', cl52: ' ', cl53: ' ', cl61: ' ', cl62: ' ', cl63: ' ', cl71: ' ', cl72: ' ', cl73: ' '},
-            {name: 'Aaron Bonifacio', cl2: 'X', cl31: ' ', cl32: ' ', cl33: ' ', cl41: ' ', cl42: ' ', cl43: ' ', cl51: ' ', cl52: ' ', cl53: ' ', cl61: ' ', cl62: ' ', cl63: ' ', cl71: ' ', cl72: ' ', cl73: ' '}
+            {name: 'Aaron Bonifacio', cl2: 'X', cl31: ' ', cl32: ' ', cl33: ' ', cl41: ' ', cl42: ' ', cl43: ' ', cl51: ' ', cl52: ' ', cl53: ' ', cl61: ' ', cl62: ' ', cl63: ' ', cl71: ' ', cl72: ' ', cl73: ' '},
+            {name: 'Carlo Finotti', cl2: ' ', cl31: ' ', cl32: ' ', cl33: ' ', cl41: ' ', cl42: ' ', cl43: ' ', cl51: ' ', cl52: ' ', cl53: ' ', cl61: ' ', cl62: ' ', cl63: ' ', cl71: ' ', cl72: ' ', cl73: ' '}
             // {temp: 'Aaron Bonifacio', cl2: 'X', cl31: ' ', cl32: ' ', cl33: ' ', cl41: ' ', cl42: ' ', cl43: ' ', cl51: ' ', cl52: ' ', cl53: ' ', cl61: ' ', cl62: ' ', cl63: ' ', cl71: ' ', cl72: ' ', cl73: ' '}
           ]
         };
