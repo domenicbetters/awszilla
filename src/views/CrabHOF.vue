@@ -29,7 +29,7 @@ import ScoreBoard from "@/components/ScoreBoard.vue"
     data () {
       return {
         SSitems: [
-          {name: 'Domenic Betters', date: '01-01-2023', img: 'https://scontent.fagc1-1.fna.fbcdn.net/v/t1.6435-9/122968712_10225663128591689_10963161004600733_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=zsszSqbmdmwAX_qunz7&_nc_ht=scontent.fagc1-1.fna&oh=00_AfBOxSg0w0OIZhq2D2auqUreO-MXWRGqK_E6QmWiLFIA8w&oe=657076EE'  }
+          {name: 'Domenic Betters', date: '03-01-2023', img: 'https://scontent.fagc1-1.fna.fbcdn.net/v/t1.6435-9/122968712_10225663128591689_10963161004600733_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=zsszSqbmdmwAX_qunz7&_nc_ht=scontent.fagc1-1.fna&oh=00_AfBOxSg0w0OIZhq2D2auqUreO-MXWRGqK_E6QmWiLFIA8w&oe=657076EE'  }
         ]
       }
     }
